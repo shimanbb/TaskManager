@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
-})
+    selector: 'app-root',
+    template: '<h1>Hello World</h1>'
+  }
+)
+
 export class AppComponent {
-  title = 'AngularApp';
+  title = 'task-manager';
 }
